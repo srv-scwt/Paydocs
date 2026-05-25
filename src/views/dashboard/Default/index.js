@@ -76,7 +76,7 @@ const Dashboard = () => {
                                       profile: null,
                                       totalCount: `${dashboardData?.totalJobApplication}`,
                                       titleName: 'Total Job Application',
-                                      pathName: '/job-applied'
+                                      pathName: '#'
                                   }
                               ]?.map((companyDetails, index) => (
                                   <Grid item key={index} xs={12} sm={12} md={6}>
